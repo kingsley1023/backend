@@ -12,7 +12,7 @@ services:
     ports:
       - "127.0.0.1:18080:8080"
     volumes:
-      - ./etc/ppanel.yaml:/app/etc/ppanel.yaml
+      - ./runtime/ppanel.yaml:/app/etc/ppanel.yaml
     environment:
       PPANEL_DB: ${PPANEL_DB}
       PPANEL_REDIS: ${PPANEL_REDIS}
