@@ -17,6 +17,9 @@ package.json
 /bin
 .local/
 
+/.env
+runtime/
+
 # Local agent instructions
 AGENT.md
 AGENTS.md
